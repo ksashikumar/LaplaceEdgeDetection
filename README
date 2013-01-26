@@ -1,0 +1,6 @@
+This is a simple program to use Gegl Operation to detect edges of an image. 
+The operation that I used is: gegl:edge-laplace
+
+To compile: $gcc -Wall -g -o laplace laplace.c $(pkg-config --cflags --libs gegl-0.2)
+
+For documentations: http://www.gegl.org/api.html
